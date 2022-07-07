@@ -1,0 +1,53 @@
+/** //Base Styles **/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/** //Typography **/
+h1{
+    font-size: 3em;
+}
+
+/** //Utility Classes **/
+.flex{
+    display: flex;
+}
+.w-full{
+    width: 100%;
+}
+.w-half{
+    width: 50%;
+}
+.w-one-third{
+    width: 33.333%;
+}
+.w-one-fourth{
+    width: 25%;
+}
+.v-align-center{
+    align-items: center;
+}
+
+.text--center{
+    text-align: center;
+}
+.text--white{
+    color: #ffffff;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/** //Hero Section **/
+#hero{
+    background: url('../images/hero-bg.png') no-repeat top left;
+    background-size: cover;
+    height: 100vh;
+}
